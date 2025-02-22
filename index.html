@@ -65,6 +65,39 @@
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1637241537344579"
      crossorigin="anonymous"></script>
 </head>
+
+<!-- Auto-Redirect Based on Browser Language--> 
+    <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        let userLang = navigator.language || navigator.userLanguage;
+        userLang = userLang.substring(0, 2).toLowerCase();
+
+        const languageMap = {
+            "en": "https://google-blockbreaker.github.io",
+            "fr": "fr",
+            "es": "es",
+            "zh": "zh",
+            "ar": "ar",
+            "bn": "bn",
+            "pt": "pt",
+            "ru": "ru"
+        };
+
+        // Check if user has previously selected a language
+        let savedLang = localStorage.getItem("selectedLanguage");
+
+        // If the user has a saved language, redirect to that
+        if (savedLang && languageMap[savedLang] && !window.location.href.includes(languageMap[savedLang])) {
+            window.location.href = languageMap[savedLang];
+        } 
+        // Otherwise, redirect based on browser language
+        else if (languageMap[userLang] && !window.location.href.includes(languageMap[userLang])) {
+            localStorage.setItem("selectedLanguage", userLang); // Save user choice
+            window.location.href = languageMap[userLang];
+        }
+    });
+</script>
+
 <body>
     <div class="wrapper__content">
         <script nonce="">
@@ -1571,6 +1604,34 @@ document.addEventListener("DOMContentLoaded", function () {
             </ul>
         </div>
     </div>
+
+<!-- Language Selector Dropdown -->
+<div class="footer__language">
+    <label for="languageSelector">🌍 Change Language:</label>
+    <select id="languageSelector">
+        <option value="https://google-blockbreaker.github.io">English</option>
+        <option value="fr">Français</option>
+        <option value="es">Español</option>
+        <option value="zh">中文 (Chinese)</option>
+        <option value="ar">العربية (Arabic)</option>
+        <option value="bn">বাংলা (Bengali)</option>
+        <option value="pt">Português</option>
+        <option value="ru">Русский</option>
+    </select>
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const languageSelector = document.getElementById("languageSelector");
+
+        // Redirect to selected language page
+        languageSelector.addEventListener("change", function () {
+            let selectedLanguage = languageSelector.value;
+            window.location.href = selectedLanguage; // Redirects to the selected language page
+        });
+    });
+</script>
+            
 </footer> 
 
     <script src="/assets/js/vendor.min7f46.js?v1.18"></script>
