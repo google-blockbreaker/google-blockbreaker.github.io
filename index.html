@@ -65,6 +65,73 @@
     <meta name="msvalidate.01" content="72A4CB6A25748F6DEA33F66807B3C1CF" />
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1637241537344579"
      crossorigin="anonymous"></script>
+
+
+
+    <style>
+    .button-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        min-height: 10vh;
+        gap: 10px;
+        margin: 0;
+        padding: 10px;
+    }
+
+    .button-container a {
+        text-decoration: none;
+    }
+
+    .button-container button {
+        background: linear-gradient(45deg, #009688, #004D40);
+        border: none;
+        color: white;
+        padding: 12px 24px;
+        text-align: center;
+        font-size: 18px;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: 0.4s;
+        width: 100%;
+        max-width: 250px;
+    }
+
+    /* Different colors for buttons */
+    .button-container a:nth-child(2) button {
+        background: linear-gradient(45deg, #4CAF50, #2E7D32);
+    }
+
+    .button-container a:nth-child(3) button {
+        background: linear-gradient(45deg, #2196F3, #1565C0);
+    }
+
+    .button-container a:nth-child(4) button {
+        background: linear-gradient(45deg, #f44336, #b71c1c);
+    }
+
+    .button-container a:nth-child(5) button {
+        background: linear-gradient(45deg, #ff9800, #e65100);
+    }
+
+    .button-container a:nth-child(6) button {
+        background: linear-gradient(45deg, #9C27B0, #6A1B9A);
+    }
+
+    /* Mobile responsiveness */
+    @media (max-width: 600px) {
+        .button-container {
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .button-container button {
+            font-size: 16px;
+            padding: 10px 20px;
+        }
+    }
+</style>
 </head>
 
 <!-- Auto-Redirect Based on Browser Language--> 
@@ -1265,40 +1332,23 @@
 
 
 <div style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; min-height: 10vh; gap: 10px; margin: 0; padding: 10px;">
-    <a href="/" target="_blank" style="text-decoration: none;">
-        <button style="background: linear-gradient(45deg, #009688, #004D40); border: none; color: white; padding: 12px 24px; text-align: center; font-size: 16px; border-radius: 8px; cursor: pointer; transition: 0.4s; width: 100%; max-width: 250px;">
-            Google Block Breaker
-        </button>
-    </a> 
-
-    <a href="/block-blast" target="_blank" style="text-decoration: none;">
-        <button style="background: linear-gradient(45deg, #4CAF50, #2E7D32); border: none; color: white; padding: 12px 24px; text-align: center; font-size: 16px; border-radius: 8px; cursor: pointer; transition: 0.4s; width: 100%; max-width: 250px;">
-            Block Blast
-        </button>
+    <a href="/" target="_blank">
+        <button>Google Block Breaker</button>
     </a>
-
-    <a href="/2048-cupcakes" target="_blank" style="text-decoration: none;">
-        <button style="background: linear-gradient(45deg, #2196F3, #1565C0); border: none; color: white; padding: 12px 24px; text-align: center; font-size: 16px; border-radius: 8px; cursor: pointer; transition: 0.4s; width: 100%; max-width: 250px;">
-            2048 Cupcakes
-        </button>
+    <a href="/block-blast" target="_blank">
+        <button>Block Blast</button>
     </a>
-
-    <a href="/2028-taylor-swift" target="_blank" style="text-decoration: none;">
-        <button style="background: linear-gradient(45deg, #f44336, #b71c1c); border: none; color: white; padding: 12px 24px; text-align: center; font-size: 16px; border-radius: 8px; cursor: pointer; transition: 0.4s; width: 100%; max-width: 250px;">
-            2028 Taylor Swift
-        </button>
+    <a href="/2048-cupcakes" target="_blank">
+        <button>2048 Cupcakes</button>
     </a>
-
-    <a href="/2048-classic" target="_blank" style="text-decoration: none;">
-        <button style="background: linear-gradient(45deg, #ff9800, #e65100); border: none; color: white; padding: 12px 24px; text-align: center; font-size: 16px; border-radius: 8px; cursor: pointer; transition: 0.4s; width: 100%; max-width: 250px;">
-            2048 Classic
-        </button>
+    <a href="/2028-taylor-swift" target="_blank">
+        <button>2028 Taylor Swift</button>
     </a>
-
-    <a href="/doge-2048" target="_blank" style="text-decoration: none;">
-        <button style="background: linear-gradient(45deg, #9C27B0, #6A1B9A); border: none; color: white; padding: 12px 24px; text-align: center; font-size: 16px; border-radius: 8px; cursor: pointer; transition: 0.4s; width: 100%; max-width: 250px;">
-            Doge 2048
-        </button>
+    <a href="/2048-classic" target="_blank">
+        <button>2048 Classic</button>
+    </a>
+    <a href="/doge-2048" target="_blank">
+        <button>Doge 2048</button>
     </a>
 </div>
 
