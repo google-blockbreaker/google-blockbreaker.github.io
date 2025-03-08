@@ -68,6 +68,7 @@ This project is released under the **MIT License**.
 For inquiries, suggestions, or contributions, reach out:
 - 📧 Email: contactmu97@gmail.com  
 - 🌐 Website: [Block Breaker](https://google-blockbreaker.github.io/)
+- Also play [Doodle Cricket](https://doodlecricket.org/)
 
 🚀 Dive into the action and enjoy [Google Block Breaker](https://google-blockbreaker.github.io/)! 🎉
 

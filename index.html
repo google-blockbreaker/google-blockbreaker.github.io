@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us" prefix="og: http://ogp.me/ns#">
+<html lang="en-us">
 <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +9,7 @@
 
     <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="shortcut icon" href="favicon.ico"/>
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <meta name="apple-mobile-web-app-title" content="Google Block Breaker" />
     <link rel="manifest" href="/site.webmanifest" />
@@ -74,13 +74,13 @@
 
         const languageMap = {
             "en": "https://google-blockbreaker.github.io",
-            "fr": "fr",
-            "es": "es",
-            "zh": "zh",
-            "ar": "ar",
-            "bn": "bn",
-            "pt": "pt",
-            "ru": "ru"
+            "fr": "fr.html",
+            "es": "es.html",
+            "zh": "zh.html",
+            "ar": "ar.html",
+            "bn": "bn.html",
+            "pt": "pt.html",
+            "ru": "ru.html"
         };
 
         // Check if user has previously selected a language
@@ -99,6 +99,8 @@
 </script>
 
 <body>
+
+
     <div class="wrapper__content">
         <script nonce="">
           window._hst = Date.now();
@@ -1259,7 +1261,45 @@
             waitForButton();
           };
         </script>
-        
+
+
+<div style="display: flex; justify-content: center; align-items: center; min-height: 10vh; gap: 15px; margin: 0;">
+        <a href="/" target="_blank" style="text-decoration: none;">
+        <button style="background: linear-gradient(45deg, #009688, #004D40); border: none; color: white; padding: 15px 30px; text-align: center; font-size: 20px; border-radius: 8px; cursor: pointer; transition: 0.4s; position: relative; overflow: hidden;">
+            Google Block Breaker
+        </button>
+    </a> 
+    
+    <a href="/block-blast" target="_blank" style="text-decoration: none;">
+        <button style="background: linear-gradient(45deg, #4CAF50, #2E7D32); border: none; color: white; padding: 15px 30px; text-align: center; font-size: 20px; border-radius: 8px; cursor: pointer; transition: 0.4s; position: relative; overflow: hidden;">
+            Block Blast
+        </button>
+    </a>
+
+    <a href="/2048-cupcakes" target="_blank" style="text-decoration: none;">
+        <button style="background: linear-gradient(45deg, #2196F3, #1565C0); border: none; color: white; padding: 15px 30px; text-align: center; font-size: 20px; border-radius: 8px; cursor: pointer; transition: 0.4s; position: relative; overflow: hidden;">
+            2048 cupcakes
+        </button>
+    </a>
+
+    <a href="/2028-taylor-swift" target="_blank" style="text-decoration: none;">
+        <button style="background: linear-gradient(45deg, #f44336, #b71c1c); border: none; color: white; padding: 15px 30px; text-align: center; font-size: 20px; border-radius: 8px; cursor: pointer; transition: 0.4s; position: relative; overflow: hidden;">
+            2028 Taylor swift
+        </button>
+    </a>
+
+    <a href="/2048-classic" target="_blank" style="text-decoration: none;">
+        <button style="background: linear-gradient(45deg, #ff9800, #e65100); border: none; color: white; padding: 15px 30px; text-align: center; font-size: 20px; border-radius: 8px; cursor: pointer; transition: 0.4s; position: relative; overflow: hidden;">
+            2048 Classic
+        </button>
+    </a>
+
+    <a href="/doge-2048" target="_blank" style="text-decoration: none;">
+        <button style="background: linear-gradient(45deg, #9C27B0, #6A1B9A); border: none; color: white; padding: 15px 30px; text-align: center; font-size: 20px; border-radius: 8px; cursor: pointer; transition: 0.4s; position: relative; overflow: hidden;">
+            Doge 2048
+        </button>
+    </a>
+</div>
 
         
         <!-- description -->
@@ -1271,7 +1311,7 @@
                     </picture>
                     <div class="description__body">
                         <h1 class="description__title">Google Block Breaker</h1>
-                        <p class="description__description">Through Google Block Breaker users can experience a modernized version of the traditional brick-breaking gameplay. With over 150+ interesting levels the game delivers strategic game play and quick response challenges to players. Players from every level of skill can enjoy this game since it offers an accessible game play experience but a demanding learning process.</p>
+                        <p class="description__description">Play classic Google Block Breaker game directly on Google Search! Use the your keyboard or touch controls to move and bounce the ball and break colorful Block bricks. Players from every level of skill can enjoy this game since it offers an accessible game play experience but a demanding learning process.</p>
                         <ul class="description__list">
                             <li class="description__list-item">
                                 <a href="#how-to" class="description__link">How to play</a>
@@ -1598,13 +1638,13 @@ document.addEventListener("DOMContentLoaded", function () {
     <label for="languageSelector">🌍 Change Language:</label>
     <select id="languageSelector">
         <option value="https://google-blockbreaker.github.io">English</option>
-        <option value="fr">Français</option>
-        <option value="es">Español</option>
-        <option value="zh">中文 (Chinese)</option>
-        <option value="ar">العربية (Arabic)</option>
-        <option value="bn">বাংলা (Bengali)</option>
-        <option value="pt">Português</option>
-        <option value="ru">Русский</option>
+        <option value="fr.html">Français</option>
+        <option value="es.html">Español</option>
+        <option value="zh.html">中文 (Chinese)</option>
+        <option value="ar.html">العربية (Arabic)</option>
+        <option value="bn.html">বাংলা (Bengali)</option>
+        <option value="pt.html">Português</option>
+        <option value="ru.html">Русский</option>
     </select>
 </div>
 
@@ -1632,7 +1672,7 @@ document.addEventListener("DOMContentLoaded", function () {
             </ul>
         </div>
     </div>
-            
+   </div>           
 </footer> 
 
     <script src="/assets/js/vendor.min7f46.js?v1.18"></script>
