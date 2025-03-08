@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://google-blockbreaker.github.io/sitemap.xml
