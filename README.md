@@ -6,7 +6,6 @@ Welcome to **Google Block Breaker**! Experience an exciting online arcade-style 
 - [🚀 Play Now](#-play-now)
 - [📌 Game Features](#-game-features)
 - [🎮 How to Play](#-how-to-play)
-- [🔧 Installation Guide](#-installation-guide)
 - [🛠️ Technologies Used](#-technologies-used)
 - [📜 License](#-license)
 - [📩 Contact](#-contact)
@@ -31,20 +30,6 @@ Start playing instantly:
 
 ## 🎮 How to Play
 Control the paddle using your **mouse** or **arrow keys** to keep the ball in play. Your goal is to break all the blocks above by bouncing the ball off the paddle. Complete all blocks to advance to the next level. Avoid letting the ball fall below the paddle to prevent losing lives.
-
----
-
-## 🔧 Installation Guide
-
-### 1️⃣ Clone the Repository  
-To run the project locally, execute the following commands:
-```bash
-# Clone the project
-git clone https://github.com/blockbreakergoogle/google-blockbreaker.github.io.git
-
-# Navigate to the project folder
-cd blockbreakergoogle.github.io
-```
 
 ---
 
