@@ -16,7 +16,7 @@ Welcome to **Google Block Breaker**! Experience an exciting online arcade-style 
 
 ## 🚀 Play Now
 Start playing instantly:  
-🔗 [Click here to play Google Block Breaker](https://google-blockbreaker.github.io/) 👈
+🔗 Click here to play [Google Block Breaker](https://blokbreaker.com) 👈
 
 ---
 
@@ -52,8 +52,8 @@ This project is released under the **MIT License**.
 ## 📩 Contact
 For inquiries, suggestions, or contributions, reach out:
 - 📧 Email: contactmu97@gmail.com  
-- 🌐 Website: [Block Breaker](https://google-blockbreaker.github.io/)
+- 🌐 Website: [Block Breaker](https://blokbreaker.com)
 - Also play [Doodle Cricket](https://doodlecricket.org/)
 
-🚀 Dive into the action and enjoy [Google Block Breaker](https://google-blockbreaker.github.io/)! 🎉
+**🚀 Dive into the action and enjoy [Google Block Breaker](https://blokbreaker.com)! 🎉**
 
